@@ -12,10 +12,8 @@ namespace GameProject
 
             Campaign campaign = new Campaign { Id=1,Name= "Discount21" };
             
-
             CampaignManager campaignManager = new CampaignManager();
             campaignManager.Add(campaign);
-
 
             OrderManager orderManager = new OrderManager(new CampaignManager());
             orderManager.Order(new Order { GameName = "FIFA 21" });
