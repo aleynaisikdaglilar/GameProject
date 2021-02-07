@@ -6,7 +6,6 @@ namespace GameProject
     {
         static void Main(string[] args)
         {
-
             GamerManager gamerManager = new GamerManager(new UserValidationManager());
             gamerManager.Add(new Gamer { DateOfBirth = 1998, FirstName = "ALEYNA", LastName = "IŞIKDAĞLILAR", NationaltyId = 25168956896 });
 
